@@ -1,0 +1,264 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  svg {
+    margin: 0 auto;
+   transform: scale(.5);
+} 
+
+ul {
+  list-style-type:disc;
+}
+
+li {
+  float: left;
+  text-align: justify;
+  width: 5em;
+  display: table-column-group;
+  padding-left: 5PX;
+}
+
+  h1{
+      text-align: center;
+      padding: 10px;
+      color: rgb(97, 96, 96);
+  }
+  .descripcion{
+    text-align: center;
+    padding: 5px 25px;
+    color: rgb(53, 53, 53);
+}
+.card{
+    width: 100%;
+    height: 850px;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+.card__perfil{
+    width: 700px;
+    padding: 20px;
+    box-shadow: 1px 1px 25px rgb(201, 201, 201);
+    border: solid rgba(3, 133, 255, 0) 2px;
+    border-radius: 10px;
+}
+.card__perfil:hover{
+    border: solid rgb(3, 133, 255) 2px;
+}
+
+
+.card__nombre{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 5px;
+    padding-top: 10px;
+    padding-bottom: 55px;
+}
+hr{
+    width: 100%;
+    height: 4px;
+    background: rgb(223, 221, 221);
+    margin: 20px 5px;
+}
+
+
+
+
+/* sections  */
+.about-me{
+  width: 50%;
+  max-width: 260px;
+  float: left;
+}
+
+.experience{
+  width: 50%;
+  float: right;
+}
+
+.skills{
+  width: 50%;
+  max-width: 260px;
+  float: left;
+}
+
+.studies{
+  width: 50%;
+  float: right;
+}
+
+.soft-skills{
+  padding-top: 32PX;
+  max-width: 260px;
+  float: left;
+}
+
+
+
+
+/* togle dark light mode */
+
+#hash-symbol {
+  color: #484848;
+  font-size: 42px;
+  position: relative;
+  top: 4px;
+}
+
+.toggle-btn {
+  position: relative;
+  width: 75px;
+  height: 35px;
+  margin: 0 auto;
+  border-radius: 50px;
+}
+
+input[type="checkbox"] {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: 0px;
+  cursor: pointer;
+  opacity: 0;
+  z-index: 2;
+ 
+}
+
+/* toggle btn */
+
+#_1st-toggle-btn span {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  overflow: hidden;
+  opacity: 1;
+  background-color: #fff;
+  box-shadow: 0px 2px 25px #d9d9d9;
+  border-radius: 40px;
+  transition: 0.2s ease background-color, 0.2s ease opacity;
+  
+}
+
+#_1st-toggle-btn span:before,
+#_1st-toggle-btn span:after {
+  content: "";
+  position: absolute;
+  top: 4px;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  transition: 0.5s ease transform, 0.2s ease background-color;
+}
+
+#_1st-toggle-btn span:before {
+  background-color: #fff;
+  transform: translate(-28px, 0px);
+  z-index: 1;
+}
+
+#_1st-toggle-btn span:after {
+  background-color: #000;
+  transform: translate(6px, 0px);
+  z-index: 0;
+}
+
+#_1st-toggle-btn input[type="checkbox"]:checked + span {
+  background-color: #000;
+}
+
+#_1st-toggle-btn input[type="checkbox"]:active + span {
+  opacity: 0.5;
+}
+
+#_1st-toggle-btn input[type="checkbox"]:checked + span:before {
+  background-color: #000;
+  transform: translate(26px, -5px);
+
+}
+
+#_1st-toggle-btn input[type="checkbox"]:checked + span:after {
+  background-color: #fff;
+  transform: translate(38px, 1px);
+}
+
+.DarkLight{
+    padding-top: 11px;
+    padding-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+}
+
+
+
+
+
+/* social */
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social-links {
+	display: flex;
+  float: right;
+padding-top: 70px;
+}
+
+.social-btn {
+	cursor: pointer;
+	height: 50px;
+	width: 50px;
+	font-family: 'Titillium Web', sans-serif;
+	color: #333;
+	border-radius: 10px;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+	background: rgb((43, 42, 42));
+	margin: 5px;
+	transition: 1s;
+}
+
+.social-btn span {
+	width: 0px;
+	overflow: hidden;
+	transition: 1s;
+	text-align: center;
+}
+
+.social-btn:hover {
+	width: 150px;
+	border-radius: 5px;
+}
+
+.social-btn:hover span {
+	padding: 2px;
+	width: max-content;
+}
+
+
+
+#linkedin svg {
+	fill: #0e76a8;
+}
+
+#github {
+	fill: rgb(94, 126, 148);
+}
+
+
+
+
