@@ -19,8 +19,4 @@ window.addEventListener("load",function(){
 });
 
 
-//agregar nombres al pasar el cursor sobre lso lenguajes
-//agregar sona para que me envien un correo al gmail
-//agregar un logo de github y linkedin con link a esas direcciones, que sea animado y diga clickme
-
 
