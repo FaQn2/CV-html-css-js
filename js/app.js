@@ -15,7 +15,6 @@ window.addEventListener("load",function(){
         body.classList.remove("dark")
     } 
 
-
 });
 
 

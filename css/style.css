@@ -9,6 +9,10 @@
    transform: scale(.5);
 } 
 
+body{
+  transition: 1000ms;
+}
+
 ul {
   list-style-type:disc;
 }

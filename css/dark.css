@@ -7,6 +7,7 @@
 
 .dark{
     background: rgb(4, 24, 27);
+    transition: 1000ms;
 }
 
 .dark h1{
