@@ -1,5 +1,4 @@
 window.addEventListener("load",function(){
-
     let toggle=document.getElementById("_1st-toggle-btn");
     let body=document.body;
     toggle.addEventListener("click", function(){
@@ -15,7 +14,5 @@ window.addEventListener("load",function(){
         body.classList.remove("dark")
     } 
 
+
 });
-
-
-

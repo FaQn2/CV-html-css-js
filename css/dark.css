@@ -3,34 +3,45 @@
     font-size: 70px;
     margin: auto;
     cursor: pointer;
+    transition: 1s;
 }
 
-.dark{
-    background: rgb(4, 24, 27);
-    transition: 1000ms;
+*{
+    transition: 1.4s;
+}
+
+.app-container{
+    
+
+background-image: linear-gradient(to top, #ebc0fd 0%, #6f8bc4 100%);
+}
+
+.dark .perfil{
+    background: #360033;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #0b8793, #360033);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #0b8793, #040036); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+
+.dark .card{
+
+background-image: linear-gradient(to left, #434343 0%, black 100%);
+transition: 1s;
+
+}
+
+
+
+.dark h4,.dark p, .dark h3, .dark a{
+    color: white;
 }
 
 .dark h1{
     color: white;
 }
 
-.dark H3{
-    color: white;
-}
-
-.dark .descripcion{
-    color: rgb(209, 208, 208);
-}
-.dark #modo{
-    color: orange;
-}
-.dark .card__perfil{
-    background: rgb(16, 43, 51);
-}
-.dark p {
-    color: rgb(211, 211, 211);
-}
-.dark h2{
+.dark ul{
     color: white;
 }
 .dark u{
@@ -41,24 +52,4 @@
 }
 .dark li{
     color: rgb(199, 199, 199);
-}
-
-.dark .social-btn{
-    color: white
-}
-
-
-.dark .card__perfil:hover{
-    border: solid green 2px;
-}
-
-.dark .social-btn{
-    background-color: rgb(43, 43, 43);
-}
-.toggle-btn{
-    box-shadow: 0px 2px 12px #263747;
-}
-
-.dark .card__nombre{
-    background-color: #18222c;
 }
