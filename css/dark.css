@@ -53,3 +53,8 @@ transition: 1s;
 .dark li{
     color: rgb(199, 199, 199);
 }
+
+.dark .social-btn {
+	color: aliceblue;
+
+}

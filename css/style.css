@@ -161,13 +161,13 @@ background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, F
 	cursor: pointer;
 	height: 50px;
 	width: 50px;
-	color: aliceblue;
+	color: rgb(32, 33, 34);
 	border-radius: 10px;
 	box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
 	background: rgb((43, 42, 42));
 	margin: 5px 24px;
 	transition: 1s;
-
+text-decoration: none;
 }
 
 
