@@ -31,7 +31,10 @@ transition: 1s;
 
 }
 
-
+.dark .section-six h4 :hover{
+    color: rgb(110, 110, 110);
+    transition: all 0.5s !important;
+  }
 
 .dark h4,.dark p, .dark h3, .dark a{
     color: white;
