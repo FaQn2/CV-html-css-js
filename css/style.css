@@ -97,17 +97,25 @@ background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, F
   padding: 17px;
 }
 
+.section-one{
+  line-height: 1.5;
+  height: auto;
+}
+
+
 .section-two{
   height: 267px;
 }
 
+
+
 .section-four{
-  height: 250px;
+  height: 275px;
 }
 
 .section-five{
-  
-  padding: 22px 8px ; 
+  line-height: 1.5;
+  padding: 25px 8px ; 
 }
 
 .section-five ul{
@@ -135,7 +143,10 @@ background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, F
   transition: all 0.5s !important;
 }
 
-
+.section-six {
+  margin-top: 4px;
+  line-height: 1.4;
+}
 
 
 
@@ -148,12 +159,15 @@ background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, F
 }
 
 
+.social-links-container{
+  width: 100%;
+}
+
+
 
 .social-links{
-  height: 130px;
-  width: 100%;
   position: relative;
-  
+  width: 86px;
 }
 
 
