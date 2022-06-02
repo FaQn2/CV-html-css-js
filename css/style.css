@@ -12,6 +12,7 @@
 
 
 
+
 .app-container{
   height: auto;
   width: 100%;
@@ -123,8 +124,6 @@ background: linear-gradient(to right, #ACB6E5, #74ebd5); /* W3C, IE 10+/ Edge, F
   display: inline-block;
   padding: 0 7px;
 }
-
-
 
 
 

@@ -23,6 +23,13 @@ background-image: linear-gradient(to top, #ebc0fd 0%, #6f8bc4 100%);
     
 }
 
+.dark  .w {
+    fill: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.699);
+    border-radius: 5px;
+  }
+  
+
 
 .dark .card{
 
